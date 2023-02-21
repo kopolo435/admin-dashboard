@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+header{
+    background-color: royalblue;
+}
+aside{
+    background-color: blue;
+}
+main{
+    background-color: yellow;
+}
