@@ -23,6 +23,12 @@ aside{
     background-color: blue;
     grid-column: 1/2;
     grid-row: 1/3;
+    display: grid;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    gap: 50px;
 }
 main{
     background-color: yellow;
