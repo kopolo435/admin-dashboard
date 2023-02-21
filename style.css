@@ -54,3 +54,12 @@ main{
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+
+.cardsContainers{
+    background-color: aqua;
+}
+
+.card{
+    height: 50px;
+    width: 50px;
+}
