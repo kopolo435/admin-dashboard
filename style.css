@@ -27,6 +27,11 @@ header{
     justify-self: end;
 }
 
+.acctionBar{
+    gap: 8px;
+    align-self: center;
+}
+
 aside{
     background-color: blue;
     grid-column: 1/2;
