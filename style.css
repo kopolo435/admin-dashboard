@@ -55,11 +55,12 @@ main{
     grid-template-columns: 4fr 1fr;
 }
 
-.cardsContainers{
+.cardsContainer{
     background-color: aqua;
 }
 
 .card{
     height: 50px;
     width: 50px;
+    background-color: black;
 }
