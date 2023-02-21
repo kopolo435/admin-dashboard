@@ -58,6 +58,15 @@ main{
     grid-auto-rows: min-content;
 }
 
+.mainContent{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-content;
+    gap: 10px;
+}
+
 .mainSide{
     grid-column: 2/3;
     grid-row: 1/3;
@@ -81,7 +90,6 @@ main{
 
 .cardsContainer{
     background-color: aqua;
-    grid-column: 1/2;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     gap: 10px;
