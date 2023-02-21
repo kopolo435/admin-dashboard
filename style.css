@@ -20,7 +20,9 @@ header{
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    padding: 2rem;
 }
+
 aside{
     background-color: blue;
     grid-column: 1/2;
