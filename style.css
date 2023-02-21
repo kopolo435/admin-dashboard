@@ -23,6 +23,10 @@ header{
     padding: 2rem;
 }
 
+.profileContainer{
+    justify-self: end;
+}
+
 aside{
     background-color: blue;
     grid-column: 1/2;
