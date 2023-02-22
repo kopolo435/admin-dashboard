@@ -69,6 +69,18 @@ header{
     width: auto;
 }
 
+.status{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.status img:nth-child(1){
+    height: 70px;
+    width: auto;
+}
+
 .acctionBar{
     gap: 8px;
     align-self: center;
