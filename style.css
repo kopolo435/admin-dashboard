@@ -60,8 +60,14 @@ aside ul{
 aside a,aside a:visited{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    color: var(--white);
+    color: black;
     font-weight: 900;
+}
+
+.menu ul,.config ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
 main{
