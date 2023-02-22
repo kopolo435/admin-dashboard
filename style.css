@@ -54,10 +54,9 @@ header{
 }
 
 .profileContainer{
-    justify-self: end;
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-around;
 }
 
 .profileContainer img:nth-child(1){
@@ -85,7 +84,7 @@ header{
 .acctionBar{
     align-self: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .acctionBar button{
