@@ -29,7 +29,7 @@ header{
     background-color: var(--white);
     grid-column: 2/3;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 2fr 1fr;
     padding: 2rem;
 }
 
@@ -44,7 +44,7 @@ header{
 }
 
 .searchContainer input{
-    flex: 1 0 250px;
+    flex: 1 0 200px;
 }
 
 .profileContainer{
