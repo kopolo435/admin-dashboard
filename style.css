@@ -30,7 +30,8 @@ header{
     grid-column: 2/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    padding: 2rem;
+    padding: 1rem 2rem;
+    gap: 10px;
 }
 
 .searchContainer{
