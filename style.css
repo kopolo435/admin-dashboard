@@ -33,6 +33,11 @@ header{
     padding: 2rem;
 }
 
+.searchContainer{
+    display: flex;
+    gap: 10px;
+}
+
 .profileContainer{
     justify-self: end;
 }
