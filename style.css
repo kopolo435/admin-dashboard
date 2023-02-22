@@ -39,6 +39,11 @@ header{
     align-items: center;
 }
 
+.searchContainer img:nth-child(1){
+    height: 16px;
+    width: auto;
+}
+
 .searchContainer form{
     display: contents;
 }
@@ -52,6 +57,11 @@ header{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.profileContainer img:nth-child(1){
+    height: 16px;
+    width: auto;
 }
 
 .profileContainer img:nth-child(2){
