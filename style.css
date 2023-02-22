@@ -63,7 +63,16 @@ aside a,aside a:visited{
     color: black;
     font-weight: 900;
 }
+aside li{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
 
+aside img{
+    height: 1rem;
+    width: 1rem;
+}
 .menu ul,.config ul{
     display: grid;
     grid-template-columns: 1fr;
