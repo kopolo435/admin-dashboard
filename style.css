@@ -57,6 +57,13 @@ aside ul{
     list-style: none;
 }
 
+aside a,aside a:visited{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    font-weight: 900;
+}
+
 main{
     background-color: var(--pink);
     grid-column: 2/3;
