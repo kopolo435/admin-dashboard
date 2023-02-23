@@ -212,6 +212,17 @@ main{
     box-shadow: 5px 5px 5px gray;
     border-radius: 10px;
     display: grid;
+    grid-template-columns: 1fr;
     gap: 10px;
 }
 
+.trendingItem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.trendingItem img{
+    height: 50px;
+    width: auto;
+}
