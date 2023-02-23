@@ -194,9 +194,10 @@ main{
 }
 
 .announcement{
-    height: 200px;
-    width: 100%;
-    background-color: chartreuse;
+    padding: 20px;
+    box-shadow: 5px 5px 5px gray;
+    display: grid;
+    gap: 10px;
 }
 
 .trending{
