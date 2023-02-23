@@ -189,6 +189,8 @@ main{
     display: grid;
     height: 150px;
     padding: 1rem;
+    border-radius: 10px;
+    border-left: 10px  solid var(--white);
     gap: 10px;
 }
 
