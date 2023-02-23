@@ -188,3 +188,8 @@ main{
     height: 200px;
     background-color: var(--red);
 }
+
+.card img{
+    height: 25px;
+    width: auto;
+}
