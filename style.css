@@ -207,8 +207,11 @@ main{
 }
 
 .trending{
-    height: 200px;
-    width: 100%;
-    background-color: teal;
+    padding: 20px;
+    background-color: var(--red);
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
 }
 
